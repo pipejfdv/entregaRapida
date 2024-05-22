@@ -1,0 +1,106 @@
+.stats-container {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .rachas {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rachas .exp {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .rachas .exp p {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  
+  .contenido {
+    width: 95%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+  }
+  
+  .logros-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logros-container h2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .logros {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .bg-red {
+    background-color: #EC6459;
+  }
+  
+  .bg-purple {
+    background-color: #342676;
+  }
+  
+  .logros .level {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15%;
+  }
+  
+  .logros .level i{
+    font-size: 3.7rem;
+    color: #F4C01E;
+  }
+  
+  .logros .text {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  .logros p {
+    font-size: 1em;
+    font-weight: 500;
+  }
+  
+  .graph {
+    width: 50%;
+    height: 100%;
+  }
