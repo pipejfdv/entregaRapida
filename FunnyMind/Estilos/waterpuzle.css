@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&family=Raleway&display=swap');
+
+body {
+    font-family: "Comic Sans MS", cursive;
+    user-select: none;
+}
+
+.navbar-brand img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+#game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#menu {
+    z-index: 0;
+    position: absolute;
+    margin-top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imagenes/FondoRegistro.png);
+    overflow-y: hidden; 
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    /*display: none;*/
+}
+
+#menu-heading {
+    position: relative;
+    margin-top: 0;
+    left: 0%;
+    height: 50px;
+    font-family: "Comic Sans MS", cursive;
+    width: 100vw;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    right: 10%;
+    font-weight: 900;
+    animation: rainbow 5s infinite alternate; 
+}
+
+@keyframes rainbow {
+    0% { color: #0077FF; }
+    25% { color: #0055FF; } 
+    50% { color: #0033FF; } 
+    75% { color: #0011FF; }
+    100% { color: #0000CC; } 
+}
+
+#menu-heading {
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl1 {
+    position: absolute; 
+    top: 25%;
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl2 {
+    position: absolute; 
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl3 {
+    position: absolute; 
+    top: 25%;
+    left: 75%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl4 {
+    position: absolute; 
+    top: 40%;
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl5 {
+    position: absolute; 
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl6 {
+    position: absolute; 
+    top: 40%;
+    left: 75%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl7 {
+    position: absolute; 
+    top: 55%;
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl8 {
+    position: absolute; 
+    top: 55%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+.lvl9 {
+    position: absolute; 
+    top: 55%;
+    left: 75%; 
+    transform: translate(-50%, -50%); 
+    width: 20%; 
+    max-width: 350px; 
+    height: auto; 
+    color: white;
+    background-color: #4520d7;
+    text-align: center;
+    font-size: 2.2vw; 
+    font-weight: 600;
+    padding: 1vw; 
+    border-radius: 20px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+#level {
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../imagenes/juegos/waterpuzle/fondo.avif); 
+    background-size: cover; 
+    background-position: center; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+.lvl1:hover {
+    background-color: blue;
+}
+
+.lvl2:hover {
+    background-color: blue;
+}
+
+.lvl3:hover {
+    background-color: blue;
+}
+
+.lvl4:hover {
+    background-color: blue;
+}
+
+.lvl5:hover {
+    background-color: blue;
+}
+
+.lvl6:hover {
+    background-color: blue;
+}
+
+.lvl7:hover {
+    background-color: blue;
+}
+
+.lvl8:hover {
+    background-color: blue;
+}
+
+.lvl9:hover {
+    background-color: blue;
+}
+
+.test-tube {
+    position: absolute;
+    height: 130px;
+    width: 40px;
+    border: 2px solid rgb(23, 21, 21);
+    border-radius: 2px 2px 20px 20px;
+    background-position: 0 10px;
+    overflow: hidden;
+    transition: 1s linear;
+    transform: rotate(0deg);
+}
+
+@keyframes glassAnim {
+    0%,100% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+}
+
+.colors {
+    position: absolute;
+    left: 0;
+    height: 30px;
+    width: 40px;
+}
+
+#won {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    font-family: "Comic Sans MS", cursive;
+}
+
+#white-bg {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 40px;
+    height: 10px;
+    background-color: transparent;
+    z-index: 1000;
+    transition: 1s;
+}
+
+#colorful-bg {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    z-index: 1000;
+    transition: 1s;
+}
+
+#restart {
+    left: 0;
+}
+
+#home {
+    left: calc(100vw - 150px);
+}
+
+.game-buttons {
+    position: fixed;
+    top: calc(100vh - 50px);
+    height: 50px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    background-color: lightblue;
+    border-radius: 10px 10px 0 0;
+}
+
+#lvl-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: lightcyan;
+    border-radius: 0 0 25px 25px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#moves {
+    position: fixed;
+    top: calc(100vh - 80px);
+    width: 150px;
+    height: 30px;
+    left: 10px;
+    font-size: 20px;
+}
+
+#rules-btn {
+    position: fixed;
+    left: calc(100vw - 200px);
+    top: calc(100vh - 50px);
+    height: 50px;
+    width: 200px;
+    background-color: #1850de;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 500;
+    font-family: "Comic Sans MS", cursive;
+    color: white;
+}
+
+#rules-page {
+    display: none;
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: 0.5s linear;
+}
+
+#rules {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    height: calc(100vh - 200px);
+    width: calc(100vw - 100px);
+    background-color: white;
+    border-radius: 10px;
+}
+
+#rules-heading {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#rules-text {
+    position: absolute;
+    top: 70px;
+    left: 5%;
+    width: 90%;
+    font-size: 20px;
+    height: calc(100vh - 200px - 150px);
+    overflow-x: hidden;
+}
+
+#rules-btn:hover {
+    background-color: blue;
+}
+
+#back {
+    position: absolute;
+    top: calc(100% - 120px + 65px + 10px);
+    height: 40px;
+    width: 100px;
+    left: calc(100% - 100px);
+    background-color: #4520d7;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+
+#alert-button:hover {
+    background-color: rgb(150,255,150);
+}
+   
